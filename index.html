@@ -4,7 +4,7 @@
    <meta charset="UTF-8">
 
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-   <meta name="viewport" content="width=device-width; initial-scale=1.0">
+
    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Saira+Condensed&amp;subset=cyrillic-ext" rel="stylesheet">
    <link rel="stylesheet" href="style/normalize.css" type="text/css">
    <link rel="stylesheet" href="style/style.css" type="text/css">
@@ -13,10 +13,9 @@
 </head>
 <body>
    <nav>
-      <div class="main_wrapper for_flex">
-         <img src="images/logo.png" alt="" width="29px" height="49px">
-         <h3 class="nav_logo_txt">BOOSTFOLIA</h3>
-         <ul class="main_menu">
+      <ul class="main_menu">
+            <li class="logo"><img src="images/logo.png" alt="" width="29px" height="49px">
+            <h3 class="nav_logo_txt">BOOSTFOLIA</h3></li>
             <li><a href="#About_us_anchor">ABOUT US</a></li>
             <li><a href="#our_works_anchor">OUR WORKS</a></li>
             <li><a href="#who_we_are_anchor">WHO WE ARE</a></li>
@@ -24,10 +23,9 @@
             <li><a href="#chose_plan_anchor">CHOOSE PLAN</a></li>
             <li><a href="#get_in_torch_anchor">GET IN TOUCH</a></li>
          </ul>
-      </div>
    </nav>
    <div class="slider_box">
-      <div class="main_wrapper height_for_slider">
+      <div class="main_wrapper">
          <input id="slide_1" type="radio" name="slider_switcher" checked>
          <input id="slide_2" type="radio" name="slider_switcher">
          <input id="slide_3" type="radio" name="slider_switcher">
@@ -59,52 +57,56 @@
       </div>
    </div><a name="About_us_anchor"></a>
    <div class="about_us">
-      <div class="main_wrapper txt_allgn">
-         <h2><span class="unline">ABOUT US</span></h2><a name="About_us_anchor"></a>
-         <p class="about_us_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt <br> ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-         <div class="about_us_card_box">
-            <div class="about_us_card">
-               <div class="about_us_card_image"></div>
-               <h6>CREATIVE DESIGN</h6>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do . . .</p>
-            </div>
-            <div class="about_us_card">
-               <div class="about_us_card_image card_image_2"></div>
-               <h6>CREATIVE DESIGN</h6>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do . . .</p>
-            </div>
-            <div class="about_us_card">
-               <div class="about_us_card_image card_image_3"></div>
-               <h6>CREATIVE DESIGN</h6>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do . . .</p>
-            </div>
+      <h2><span class="unline">ABOUT US</span></h2><a name="About_us_anchor"></a>
+      <p class="about_us_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt <br> ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+      <div class="about_us_card_box">
+         <div class="about_us_card">
+            <div class="about_us_card_image"></div>
+            <h6>CREATIVE DESIGN</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do . . .</p>
          </div>
-
+         <div class="about_us_card">
+            <div class="about_us_card_image card_image_2"></div>
+            <h6>CREATIVE DESIGN</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do . . .</p>
+         </div>
+         <div class="about_us_card">
+            <div class="about_us_card_image card_image_3"></div>
+            <h6>CREATIVE DESIGN</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do . . .</p>
+         </div>
       </div>
    </div>
    <div class="watch_wrap">
-      <div class="watch_wrap_centring">
-         <div class="watch_left_box">
-            <h4>WATCH BEHIND THE SCENE</h4>
-            <p>Lorem ipsum dolo the lorem r sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
-            <a href="#" class="btn">PLAY NOW</a>
+      <div class="watch_left_box">
+         <h4>WATCH BEHIND THE SCENE</h4>
+         <p>Lorem ipsum dolo the lorem r sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
+         <a href="#" class="btn">PLAY NOW</a>
+      </div>
+      <div class="watch_right_box">
+         <div class="video_box">
+            <video width="140%" height="auto" loop="loop" src="images/Restaurant Interior Design.mp4" autoplay poster="posterimage.jpg">
+            </video>
          </div>
-         <div class="watch_right_box">
-            <img class="bg_video_image" src="images/bg_video.jpg" alt="">
-            <img class="play_btn" src="images/play_btn.png" alt="">
-         </div>
-      </div><a name="our_works_anchor"></a>
-   </div>
+      </div>
+   </div><a name="our_works_anchor"></a>
    <div class="our_works_wrap">
       <h2><span class="unline">OUR WORKS</span></h2>
       <p class="about_us_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt <br> ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
       <div class="gallery_wrap">
-         <div class="gallery_slider_box">
+         <div class="gallery_slider_box clearfix">
             <input id="all_pro" type="radio" name="gallery_switcher" checked>
             <input id="photo" type="radio" name="gallery_switcher">
             <input id="web_d" type="radio" name="gallery_switcher">
             <input id="brand" type="radio" name="gallery_switcher">
             <input id="mob_app" type="radio" name="gallery_switcher">
+            <div class="gallery_menu">
+               <label id="menu_frst" for="all_pro"><p class="gallery_menu_item">All PROJECTS</p></label>
+               <label id="menu_scnd" for="photo"><p class="gallery_menu_item">PHOTOGRAPHY</p></label>
+               <label id="menu_thrd" for="web_d"><p class="gallery_menu_item">WEB DESIGN</p></label>
+               <label id="menu_fourth" for="brand"><p class="gallery_menu_item">BRANDING</p></label>
+               <label id="menu_fifth" for="mob_app"><p class="gallery_menu_item">MOBILE APP</p></label>
+            </div>
             <div id="g_s_first" class="gallery_slide">
                <div class="gallery_slide_item">slide 1</div>
                <div class="gallery_slide_item">slide 1</div>
@@ -160,14 +162,7 @@
                <div class="gallery_slide_item">slide 5</div>
                <div class="gallery_slide_item">slide 5</div>
             </div>
-            <div class="gallery_menu">
-               <label id="menu_frst" for="all_pro"><p class="gallery_menu_item">All PROJECTS</p></label>
-               <label id="menu_scnd" for="photo"><p class="gallery_menu_item">PHOTOGRAPHY</p></label>
-               <label id="menu_thrd" for="web_d"><p class="gallery_menu_item">WEB DESIGN</p></label>
-               <label id="menu_fourth" for="brand"><p class="gallery_menu_item">BRANDING</p></label>
-               <label id="menu_fifth" for="mob_app"><p class="gallery_menu_item">MOBILE APP</p></label>
-            </div><a name="who_we_are_anchor"></a>
-         </div>
+         </div><a name="who_we_are_anchor"></a>
       </div>
    </div>
    <div class="who_we_are">
@@ -189,7 +184,7 @@
                </div>
             </div>
             <div class="who_we_are_skills">
-               <h4>MY SKILLS</h4>
+               <h4>MY SKILLS1</h4>
                <p>Lorem ipsum dolo the lorem r sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
                <div class="skills">
                   <p>PHOTOSHOP</p>
@@ -226,7 +221,7 @@
                </div>
             </div>
             <div class="who_we_are_skills">
-               <h4>MY SKILLS</h4>
+               <h4>MY SKILLS2</h4>
                <p>Lorem ipsum dolo the lorem r sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
                <div class="skills">
                   <p>PHOTOSHOP</p>
@@ -262,7 +257,7 @@
                </div>
             </div>
             <div class="who_we_are_skills">
-               <h4>MY SKILLS</h4>
+               <h4>MY SKILLS3</h4>
                <p>Lorem ipsum dolo the lorem r sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
                <div class="skills">
                   <p>PHOTOSHOP</p>
@@ -294,7 +289,6 @@
 
       </div>
 
-   </div>
    <div class="some_features_wrap">
       <h2><span class="unline">SOME FEATURES</span></h2>
       <div class="wrap_for_features">
@@ -320,6 +314,7 @@
          </div>
       </div><a name="blog_post_anchor"></a>
 
+   </div>
    </div>
    <div class="blog_posts_wrap">
       <h2><span class="unline">BLOG POSTS</span></h2>
