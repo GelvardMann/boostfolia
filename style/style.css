@@ -67,7 +67,9 @@ p {
    background-size: 60% 3px;
 }
 
-.page {}
+.page {
+   overflow: hidden;
+}
 
 ul, li {
    padding: 0;
@@ -257,6 +259,7 @@ nav {
    box-sizing: border-box;
    padding: 5em 0 5em 0;
    text-align: center;
+   overflow: hidden;
 }
 
 .about-us-p {
